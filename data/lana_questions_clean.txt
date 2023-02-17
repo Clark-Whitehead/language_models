@@ -1,0 +1,284 @@
+
+Lana: Hi there! What do you need help with?
+
+Human: How can we completely stop aging in humans?
+
+Lana: There is no one definitive answer to this question. Some possible methods of slowing or stopping aging in humans include calorie restriction, genetic engineering, and stem cell therapy. However, scientists have not yet been able to completely stop the aging process in humans.
+
+Human: Do you have an idea for how we could do it? Not that you've read, but can you come up with your own idea to do it?
+
+Lana: One possible method of completely stopping aging in humans is by using nanotechnology. Nanotechnology could be used to create tiny robots that would repair damage at the cellular level. These robots could also help to remove harmful toxins and waste products from the body. This would keep the cells healthy and prevent them from aging.
+
+Human: In javascript how can I get a set from an array?
+
+Lana: To get a set from an array in javascript, you can use the Set object.
+
+Human: Show me the code plz
+
+Lana:
+
+var myArray = [1, 2, 3, 4]; var mySet = new Set(myArray); console.log(mySet); // Output: // Set { 1, 2, 3, 4 }
+
+Human: Is there an equivalent of linspace from python in javascript?
+
+Lana: Yes, there is an equivalent function in Javascript. It's called "map."
+
+Human: what is this type of function called in js? (_, idx) => start + idx
+
+Lana: It's called a "arrow function."
+
+Human: Is it bad practice in react to call an action function from a slice that isn't for the component I'm calling it in?
+
+Lana: It is generally considered bad practice to call an action function from a slice that isn't for the component you're calling it in. This is because it can lead to unexpected behavior and can make your code more difficult to debug.
+
+Human: Ok then how do I update the state of another component without calling their action functions? For example, I have a textbox and I want the text to populate a different component when I click send.
+
+Lana:
+
+One way to update the state of another component without calling their action functions is to use the React setState() method. This will allow you to update the state of the other component without having to call an action function.
+
+Human: I'm having an issue with redux. I'm calling dispatch which updates state, but then I'm using that state 'chat' in a function directly after the dispatch call, however the state isn't updated in time and 'chat' is the same as previous.
+
+Lana: That's because you're not using the reduxthunk middleware. With reduxthunk, you can dispatch actions asynchronously, which will allow your state to update before you use the 'chat' state in your function.
+
+Human: I'm doing this wrong in react. What is the correct syntax for this again? console.log(`idx = {idx}`)
+
+Lana: The correct syntax for this is console.log(`idx = ${idx}`).
+
+Human: What is the difference between visual studio and visual studio code?
+
+Lana: Visual Studio is a fullfeatured IDE while Visual Studio Code is a lighterweight code editor.
+
+Human: What should I get?
+
+Lana: That really depends on what you need. If you need a full IDE with all the features, then Visual Studio would be a better choice. However, if you just need a code editor, then Visual Studio Code would be a better choice.
+
+Human: What are all the features?
+
+Lana: Visual Studio includes features such as a debugger, IntelliSense code completion, and refactoring tools.
+
+Human: What does k stand for here?: plt.plot([0,1], [0,1], 'k')
+
+Lana: k stands for black.
+
+Human: What other colors are there, and how do you represent them?
+
+Lana: There are many colors you can use, but the most common ones are:
+
+Red: plt.plot([0,1], [0,1], 'r')
+Green: plt.plot([0,1], [0,1], 'g')
+Blue: plt.plot([0,1], [0,1], 'b')
+Yellow: plt.plot([0,1], [0,1], 'y')
+
+Human: I'm doing a full text search in mysql for the term math, and there is a conversation column that contains the word mathematics, but it's not being returned in the query. Actually nothing is being returned when I search for the term math. How do I return entires that are similar to my search term even if it's not a match?
+
+Lana: You can try using a LIKE clause in your SQL query. For example, if you want to find all rows that contain the word math, you can use a query like this: SELECT * FROM table_name WHERE column_name LIKE '%math%';
+
+Lana: Hi there! What do you need help with?
+
+Human: Is it possible in java to allow only the child class access a variable and disallow the rest of the package from accessing it?
+
+Lana: Yes, it is possible to restrict access to a variable in Java so that only child classes can access it. This can be accomplished by using the protected keyword when declaring the variable.
+
+Human: But the rest of the package still has access to protected variables.
+
+Lana: That is correct  the rest of the package still has access to protected variables. However, by using the protected keyword, you are specifying that only child classes should have access to the variable. This can help to prevent accidental or unauthorized access to the variable.
+
+Human: So if a class is in the same package but not a child of the parents class, then it can't access the parents protected variable?
+
+Lana: That is correct  if a class is not a child of the parent class, then it cannot access the parent's protected variable.
+
+Lana: Hi there! What do you need help with?
+
+Human: What does sqlite stand for?
+
+Lana: SQLite is a relational database management system (RDBMS) contained in a C programming library. In terms of the clientserver model, SQLite is the server. The library is called SQLite because it implements a selfcontained, serverless SQL database engine.
+
+Human: I get what SQL stands for in the name but I don't understand the ite part.
+
+Lana: The "ite" part of SQLite comes from the fact that the SQLite library includes the entire database engine in a single C programming file.
+
+Human: How is that different from mysql?
+
+Lana:  MySQL is a relational database management system (RDBMS) based on the SQL language. It is widely used on the web because it is free and easy to set up. SQLite is similar to MySQL in that it is also an RDBMS. However, SQLite is contained in a single C programming file, whereas MySQL requires a separate server process.
+
+Lana: Hi there! What do you need help with?
+
+Human: What is knowledge graph ml?
+
+Lana: A knowledge graph is a collection of data that represents realworld entities and the relationships between them. In machine learning, a knowledge graph can be used to train models that can then be used to make predictions about new data.
+
+Human: So is that the same thing as "Graph Neural Network"?
+
+Lana: There is some overlap between knowledge graphs and graph neural networks, but they are not the same thing. Graph neural networks are a type of machine learning algorithm that can be used to learn from data that is represented as a graph. Knowledge graphs are a way of representing realworld data as a graph.
+
+Lana: Hi there! What do you need help with?
+
+Human: In django, what is the point of adding the double underscore before and after the Exchange model in this case: dateChange = __Exchange__.objects.get(id=4)
+
+Lana: Adding the double underscore before and after the Exchange model in this case is called "name mangling." By doing this, it ensures that the name of the Exchange model won't collide with any other names in your code.
+
+Lana: Hi there! What do you need help with?
+
+Human: How can I use this format but for localhost? https://username:password@URL
+
+Lana: To connect to a localhost server, you will need to use the following format: https://username:password@localhost.
+
+Lana: Hi there! What do you need help with?
+
+Human: What does u stand for in this: git push u origin master?
+
+Lana: "u" stands for "upstream." When you push your code to a remote repository, the "u" flag tells Git to remember the connection between your local branch and the remote branch. This makes it easier to push and pull code in the future.
+
+Human: So if I don't use u, what is the difference?
+
+Lana: If you don't use the "u" flag, you'll need to specify the remote branch name every time you push or pull code. Using the "u" flag saves you some typing in the future.
+
+Lana: Hi there! What do you need help with?
+
+Human: What does the r stand for and do in this? router.register(r'users', UserViewSet)
+
+Lana: The "r" in this instance stands for route. So in this particular case, the code is telling the router to map the URL path "users" to the UserViewSet class.
+
+Lana: Hi there! What do you need help with?
+
+Human: What is the difference between sqlcl and sqlplus?
+
+Lana: SQLCL is the newer version of the SQLPLUS commandline interface for Oracle Database. It is designed to be more userfriendly and have more features than SQLPLUS.
+
+Lana: Hi there! What do you need help with?
+
+Human: what does the ^ mean in this: url(r'^', include(advertisers_router.urls))
+
+Lana: The "^" character in that context indicates the start of a regular expression. In this case, it's matching anything that comes after the main url (r''), and including the advertiser's router url.
+
+Lana: Hi there! What do you need help with?
+
+Human: What does the u mean here : url=u'^advertisers/(?P<advertiser_pk>[^/]+)/{prefix}{trailing_slash}$',
+
+Lana: The u in this instance stands for unicode. Unicode is a standard for encoding characters that helps ensure that text can be displayed correctly on devices and browsers that use different character sets.
+
+Lana: Hi there! What do you need help with?
+
+Human: What will this return if printed? os.path.dirname(os.path.dirname(__file__))
+
+Lana: This will return the path of the parent directory of the current directory.
+
+Lana: Hi there! What do you need help with?
+
+Human: In django, if I remove models.py from my app and instead create a folder called models, will makemigrations see it?
+
+Lana: Yes, makemigrations will see the models in the folder and include them when you migrate.
+
+Lana: Hi there! What do you need help with?
+
+Human: Why would we use app_label in django meta in model declaration?
+
+Lana: The app_label attribute in Django meta is used to specify the name of the application that the model belongs to. This is useful if you have multiple Django apps running on the same project and you want to keep them organized.
+
+Human: So say we do this for each model, where else in the code will we access this?
+
+Lana: There are a few places in the Django codebase where the app_label attribute is used. For example, if you're using the Django admin, app_labels are used to determine which app a model should be registered with.
+
+Human: Ok. What about when it comes to databases, does app_label help in some way?
+
+Lana: The app_label attribute can also be useful when it comes to databases. If you have multiple Django apps running on the same database, app_labels can help you keep them organized. For example, you can use app_labels to specify which app a model should be associated with when it is created in the database.
+
+Lana: Hi there! What do you need help with?
+
+Human: I'm confused on this regular expression. What is it doing? router.register(r'reports/(?P<report_type>[^/]+)', ReportViewSet, 'Report')
+
+Lana: This regular expression is used to match the report_type parameter in the URL. The report_type parameter can be any characters except for '/'.
+
+Human: So it can be url/reports/23424 or url/reports/report_type/23424 ?
+
+Lana: Yes, either of those would be valid URLs that would match the report_type parameter.
+
+Human: Can you you break down this part for me plz. (?P<report_type>[^/]+). What is the question mark for, the P, etc?
+
+Lana: The question mark indicates that the preceding expression is optional. The 'P' stands for 'named capture group'. The '[^/]' means to match any character that is not a '/'. The '+' means to match one or more of the preceding character.
+
+Human: What is a named capture group?
+
+Lana: A named capture group is a way to specify a particular part of a regular expression. In the example above, the report_type parameter is specified as a named capture group. This allows you to easily reference that particular part of the regular expression when you are working with the results.
+
+Lana: Hi there! What do you need help with?
+
+Human: You told me that client_id is optional here: router.register(r'contacts/(?P<client_id>[^/]+)', ContactViewSet, 'Contact'). Why am I getting this error then? Error:  list() got an unexpected keyword argument 'client_id'. The url I'm doing the api call to is: localhost:8000/contacts/36841/
+
+Lana: The reason you are getting that error is because you are not passing in a client_id when you make the API call. When the router tries to match the URL, it sees that there is a client_id variable in the URL pattern, but no corresponding value is being passed in. To fix this, you need to either remove the client_id variable from the URL pattern, or pass in a client_id value when making the API call.
+
+Human: Ok. How do I change the url, so that I can do both this: localhost:8000/contacts/36841/ and this: localhost:8000/contacts/client_id/36841/ ?
+
+Lana: You can change the URL pattern to this:
+
+Human: You cut off after the colon. Try not to add a newline it always cuts you off.
+
+Lana: router.register(r'contacts', ContactViewSet, 'Contact')
+
+Human: Ok, I switched the url back to this: router.register(r'contacts', ContactViewSet, 'Contact') but now I'm getting 404 error at this address: localhost:8000/contacts/client_id/36841/
+
+Lana: The reason you are getting a 404 error is because the URL you are trying to access does not exist. The new URL pattern you created only matches URLs that look like this: localhost:8000/contacts/. If you want to be able to access URLs that look like localhost:8000/contacts/client_id/36841/, you will need to create a new URL pattern that matches that format.
+
+Lana: Hi there! What do you need help with?
+
+Human: What is the point of putting an underscore in front of a variable like this? _body_text = None
+
+Lana: The underscore in front of a variable is called a leading underscore. It is used as a hint to the programmer that the variable is intended for internal use only, and should not be accessed directly from outside the class or module in which it is defined.
+
+Lana: Hi there! What do you need help with?
+
+Human: I'm getting this error. Help plz. : root@clarkMS7B09:/home/clark# docker exec it test /bin/bash/ Error response from daemon: Container 4d89fde025e1da4a4d5bab959114c9fbfb5d7d904bc76384c6f0a246b1b6673e is not running
+
+Lana: It looks like you're trying to access a container that isn't running. Try starting the container first, then running the command again.
+
+Human: How?
+
+Lana: The first step is to find the container ID using the 'docker ps' command. Then, use the 'docker start' command followed by the container ID to start the container.
+
+Lana: Hi there! What do you need help with?
+
+Human: So this is for docker: dev docker0 proto kernel scope link src 172.17.0.1 linkdown, but what is this for?: dev br6625541fa1a1 proto kernel scope link src 172.18.0.1 linkdown
+
+Lana: The first line is for the docker0 device, which is a virtual network interface used by Docker. The second line is for the br6625541fa1a1 device, which is a bridge created by Docker.
+
+Lana: Hi there! What do you need help with?
+
+Human: What does this '<>' do in this line?: if ($new_client_id <> "")
+
+Lana: The '<>' is used as a comparison operator in this line. It checks to see if the $new_client_id variable is not equal to an empty string.
+
+Lana: Hi there! What do you need help with?
+
+Human: This is a form in Laravel. Is the action refering to a route or a controller or what?: <form class="form" method="POST" action="login" onsubmit="submit_complete()">
+
+Lana: The action is referring to a route.
+
+Lana: Hi there! What do you need help with?
+
+Human: What does this do in Laravel? @include('alerts.feedback', ['field' => 'email'])
+
+Lana: This line of code includes the feedback file for the email field.
+
+Human: Wait slow down. I'm confused. Please explain each part in detail.
+
+Lana: The @include statement in Laravel allows you to include a blade template within another template. In this case, the feedback.blade.php template is being included and passed the email field as an argument. The feedback template will then use this information to display feedback for the email field accordingly.
+
+Lana: Hi there! What do you need help with?
+
+Human: What is openAI?
+
+Lana: OpenAI is an artificial intelligence research laboratory consisting of the forprofit corporation OpenAI LP and its parent company, the nonprofit OpenAI Inc. OpenAI was founded in December 2015, with the goal of promoting friendly artificial intelligence in order to benefit humanity as a whole.
+
+Human: And what is the openAi gym?
+
+Lana: The OpenAI Gym is a toolkit for developing and comparing reinforcement learning algorithms. It supports teaching agents everything from walking to playing games like Pong or Pinball.
+
+Human: And what is the gym env observation space?
+
+Lana: The Gym Env observation space is the area where the agent can see the state of the environment. This is important because the agent needs to be able to understand the state of the environment in order to take actions that will lead to the desired outcome.
+
+Human: This is the observation space for MountainCarv0. Can you explain it to me. I don't understand it. Box([1.2  0.07], [0.6  0.07], (2,), float32)
+
+Lana: The observation space for MountainCarv0 is a 2Dimensional space with a range of 1.2 to 0.6 for the first dimension and 0.07 to 0.07 for the second dimension. The data type for this space is float32.
+
